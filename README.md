@@ -77,8 +77,13 @@ Para criar endpoints neste repositório, siga estes passos:
 ### Exercício
 
 A ideia é você aprender consumir APIs externas e também manipular arquivos json.
+
 Primeiro você deve entender como criar endpoints, logo depois ir criando as lógicas de negócio na service.
+
 Tratar erros é na controller, mas atenção: ela NAO pode ter lógica alguma.
+
 Logo após, na hora de fazer os posts, você pode usar o arquivo json criado na model, para poder aprender sobre outros métodos também: POST, PUT, etc.
+
 A ideia desse exercício é você explorar tudo que tem aqui.
+
 Na hora de fazer requisição, use o client previamente criado e use a documentação da api de [star wars](https://swapi.dev/documentation).
