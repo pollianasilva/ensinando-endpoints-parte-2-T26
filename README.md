@@ -41,6 +41,7 @@ Para criar endpoints neste repositório, siga estes passos:
 
 ### Arquitetura
 
+```
  📁ensinando-endpoints-parte-1
    |
    |--📁node_modules
@@ -48,7 +49,7 @@ Para criar endpoints neste repositório, siga estes passos:
    |--📁 src
    |  ||
    |  ||--📁 client
-   |  |    |- 📄 client.ts
+   |  |    |- 📄 index.ts
    |  ||
    |  ||--📁 controllers
    |  |    |- 📄 planetasController.ts
@@ -71,8 +72,10 @@ Para criar endpoints neste repositório, siga estes passos:
    |- 📄 README.md
    |- 📄 server.ts
    |- 📄 tsconfig.json
+```
 
 ### Exercício
+
 A ideia é você aprender consumir APIs externas e também manipular arquivos json.
 Primeiro você deve entender como criar endpoints, logo depois ir criando as lógicas de negócio na service.
 Tratar erros é na controller, mas atenção: ela NAO pode ter lógica alguma.
