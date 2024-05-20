@@ -1,8 +1,6 @@
-import express from "express";
+import { Router } from "express";
 import { PlanetasController } from "../controllers/planetasController";
 
-const planetasRouter = express.Router();
+export const planetasRouter = Router();
 
 planetasRouter.get("/planetas", PlanetasController.getAllPlanetas);
-
-export { planetasRouter };

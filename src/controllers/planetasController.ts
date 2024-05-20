@@ -9,7 +9,7 @@ class PlanetasController {
     // e devolver uma resposta amigável para o usuário
     // pesquise sobre status code e como usá-los para tratar erros de forma eficiente e amigável
     // mas também atente-se para não expor informações sensíveis ao usuário
-    res.status(200).json(PlanetaServices.getAllPlanets(req, res));
+    res.status(200).json(PlanetaServices.getAllPlanets());
   };
 }
 
