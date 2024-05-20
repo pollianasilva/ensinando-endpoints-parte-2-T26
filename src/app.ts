@@ -1,9 +1,11 @@
-import express, { Request, Response, json } from "express";
+import express, { json } from "express";
 import { router as index } from "./routes";
+import { planetasRouter } from "./routes/planetas";
 
-export const app = express();
+const app = express();
 
 app.use(json());
 app.use("/", index);
+app.use(planetasRouter);
 
-app.get("/", async (req: Request, res: Response) => {});
+export default app;
