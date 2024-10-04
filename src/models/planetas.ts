@@ -1,5 +1,5 @@
 export interface Planeta {
-  id: number;
+  id?: string; // O ID pode ser opcional na criação
   name: string;
   climate: string;
   orbital_period: number;
@@ -10,7 +10,14 @@ export interface Planeta {
   residents: string[];
   films: string[];
   population: number;
-  created: Date;
-  edited: Date;
-  url: string;
+  created?: Date; // Opcional se não for usado na criação
+  edited?: Date; // Opcional se não for usado na criação
+  url?: string; // Opcional se não for usado na criação
+  description: string; // incluir descrição
+
 }
+
+
+
+
+
